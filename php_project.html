@@ -14,16 +14,65 @@
 
     <div class="container p-3 my-3 ">
       <h1>PHP Project</h1>
-      <h2 class="intro">Introduction</h2>
-      <p>
-        This was a personal project with no main purpose except to improve my PHP skills. I started with a basic main page that tested database insertion and database access in SQL.
-      </p>
-      <p>
-        It ended up with multiple pages where each one built on different skills and specific techniques. One of the best implemented features was a scratch map where I could select which countries I had visited, or even mark them as wish to visit, which changes could also be saved in the database, this was something that I thought was a great exercise to improve my programming skills as I used PHP, javascript and SQL to achieve this
-      </p>
-      <h3>What Was Used:</h3>
+      <br />
+      <h3 class="specs">What Was Used</h3>
       <p>Languages: PHP, HTML, CSS, JavaScript and SQL</p>
       <p>Software: XAMPP to host the server and database</p>
+      <br />
+
+      <h2 class="intro">Introduction</h2>
+      <p>
+        This was a personal project with no main purpose except to improve my PHP skills and get used to version control with GitHub.
+      </p>
+      <p>
+        I started with a basic main page that tested database insertion and database access in SQL but it grew ending up with multiple pages where each one i tried to learn something new. In retrospect, both the design and code practices needed a lot of work, but I was still able to apply what I learned about PHP and even learn more things in the process.
+      </p>
+      <p>
+         One of the best features implemented, was a scratch map where I could select which countries I had visited, or even mark them as wish to visit, which changes could also be saved in the database, this was something that I thought was a great exercise to improve my programming skills as I used PHP, javascript and SQL to achieve this.
+      </p>
+      <br />
+
+
+        <div class="slide-container ">
+          <div class="slide">
+            <div class="numbertext">1/4</div>
+            <img  src="src/imgs/php_database.png" alt="php_database"  style="width:100%">
+            <div class="text">Database Insertion</div>
+          </div>
+          <div class="slide">
+            <div class="numbertext">2/4</div>
+            <img  src="src/imgs/php_advice.png" alt="php_advice"  style="width:100%">
+            <div class="text">Advice With API</div>
+          </div>
+          <div class="slide">
+            <div class="numbertext">3/4</div>
+            <img  src="src/imgs/php_simulation.png" alt="php_advice"  style="width:100%">
+            <div class="text">Simulation</div>
+          </div>
+          <div class="slide">
+            <div class="numbertext">4/4</div>
+            <img  src="src/imgs/php_map.png" alt="php_advice"  style="width:100%">
+            <div class="text">Scratch Map</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+
+      <br />
+      <a href="https://github.com/emanwzp/php-project" class="source">Source Code (Repo)</a>
 
 
 
@@ -32,7 +81,7 @@
 
     </div>
 
-
+    <script src="slider.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
